@@ -1,0 +1,59 @@
+/* wrapper */
+.warp {
+ position: relative;
+ margin: 20px 100px;
+}
+
+/* progress bar */
+.line {
+ width: 500px;
+ height: 10px;
+ background: rebeccapurple;
+ position: absolute;
+ left: 50px;
+ top: 104px;
+}
+
+/* step */
+.step {
+ width: 0px;
+ height: 10px;
+ background: teal;
+ position: absolute;
+ left: 50px;
+ top: 104px;
+ margin: 0;
+ padding: 0;
+}
+
+/* count */
+.flag {
+ display: inline-block;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ text-align: center;
+ border: 1px solid red;
+ position: absolute;
+ top: 95px;
+ left: 20px;
+ background: brown;
+ z-index: 10;
+ line-height: 27px;
+ color:white;
+ font-weight: bolder;
+}
+
+/* next/prev buttons */
+.next, .prev {
+ margin-top: 100px;
+ margin-left: 100px;
+ background-color: tomato;
+ width: 50px;
+ height: 30px;
+ outline: none;
+ color: #fff;
+ transition: 0.5s;
+}
+
+.next:hover, .prev:hover{background-color: teal;}
